@@ -1,0 +1,61 @@
+-- CONFIG:
+shared.ftime = 110 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr =
+    [[ 
+[2I] 6 [0u] [ro]-I [5y]-
+[2e] 6 0 Q----
+[2I] 6 [0u] [ro]-I [5y]-
+[7I] 9 Q-[6u] * 0 e 
+[3u] 5 [7Y] [$I] ^ [*u] [QT]-
+[7u] 9 [Qy]-[rT]-[Qy] 9 
+[5r] [9T] w [eu]-y-e 
+2 6 0 Q----
+[2I] 6 [0u] [ro]-I [5y]-
+[2e] 6 0 Q----
+[2I] 6 [0u]-[ro] I [5y]-
+[7I] 9 Q-[6u] * 0 e 
+[3u] 5 [7Y] [$I] ^ [*u] [QT]-
+[7u] 9 [Qy]-[rT]-[Qy] 9 
+[5r] [9T] w [eu]-y-[yI] 
+2 6 9 [QI] [wo]-[ra]-
+[6p] * 0 [eG] [Th] u [pk] f 
+[ej] T u [Ip] o-[*a] e 
+[6p] [*u] 0 [eo]-I-I 
+2 $ 6 9 [QI]-[wo]-[ep]-
+[wS]-[yd]-[9p]-e y 
+[5S]-[9d]-[2p]-6 y 
+[39I]-u-y-u-
+[59o]-I-y-T-
+[26y] u-o-I-[9a]-
+p-[Qyf]--d-
+[4p] 8 [wo] [yP]-p [^i]-
+[4t] 8 w e----
+[4p] 8 [wo] [yP]-p [^i]-
+[9p] q e-[8o] 0 w t 
+[5o] ^ [9I] [6p] * [0o] [eu]-
+[9o] q [ei]-[yu]-[ei] q 
+[^y] [qu] E [to]-i-[ip] 
+4 8 q [ep] [EP]-[yd]-
+[8s] 0 w [tj] [uJ] o [sz] h 
+[tl] u o [ps] P-[0d] t 
+[8s] [0o] w [tP]-p-p 
+4 6 8 q [ep]-[EP]-[ts]-
+[Ef] y [ig]-[qs] e t i 
+[^f] [qg]-[4s]-6 8 i 
+[9p] q [eo] [ti]-y--
+[8i] [0o] w [ep] [EP]-[yd]-
+[8s] 0 [wj] [tj] [uJ]-[oj]-[sg]-
+[qs] e t [ip] P-[wd] u 
+[8s] [0o] [wh] h [tJ]-j-h-
+[4j] [6g] 8 q [ep]-[EP]-[ts]-
+[Ef]-[ig]-[qs]-t i 
+[^f] [qg]-[4s]--8 i 
+[5qp]-o-i-o----
+[q^P]-p-i-u-
+[qti]--s [8j] 0 [wh] t 
+[qsg] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Auto-Piano-Player/main/source"))()
